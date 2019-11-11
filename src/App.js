@@ -167,7 +167,7 @@ post_likes:'',
 //   // })
 // }
 sendUrl(){
-  axios.get('http://localhost:8000/',{
+  axios.get('/',{
     params:{url:this.state.url}
   }).then((response)=>{
     console.log('result',response,'result')
